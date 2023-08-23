@@ -1,0 +1,137 @@
+/* Reset de margens e padding */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background-color: #eae9f4;
+    color: #f0f0f5;
+    display: flex;
+}
+
+/* Estilo para o menu lateral */
+.sidebar {
+    width: 250px;
+    background-color: #120c4b;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar h2 {
+    color: #fff;
+}
+
+.sidebar ul {
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 10px 0;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.sidebar a:hover {
+    background-color: #555;
+}
+
+/* Estilo para a aba do perfil */
+.menu-active {
+    background-color: #ffcc29;
+    color: #120c4b;
+}
+
+/* Reset padrão de margens e preenchimentos */
+body, h1, h2, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: #120c4b;
+    color: #fff;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidebar h2 {
+    margin: 20px;
+    color: #fff;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #555;
+}
+
+.sidebar li:last-child {
+    border-bottom: none;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background-color: #555;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.sidebar a.exit-button {
+    background-color: #ff0000;
+    color: white;
+    padding: 10px 0;
+    border-radius: 0 0 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.sidebar a.exit-button:hover {
+    background-color: #cc0000;
+}

@@ -1,0 +1,96 @@
+/* Estilo para o corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #120c4b;
+    background-image: url('Imagem5.png'); /* Substitua pelo caminho da sua imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Estilo para o conteúdo */
+.content {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Estilo para o título */
+.content h1 {
+    margin-bottom: 20px;
+}
+
+/* Estilo para as caixas de texto */
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #0c0d0d;
+    box-sizing: border-box;
+}
+
+/* Estilo para o botão */
+input[type="submit"] {
+    background-color: #10044f;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #0e0351;
+}
+
+/* Estilo para a mensagem de erro */
+.error-message {
+    font-size: 14px;
+    color: red;
+    margin-top: 10px;
+}
+
+/* Estilo para a mensagem de sucesso */
+.success-message {
+    font-size: 14px;
+    color: #296e02;
+    margin-top: 10px;
+}
+
+/* Estilo para o link de voltar ao menu */
+.exit-button {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    align-self: flex-end;
+}
+
+.exit-button:hover {
+    background-color: #cc0000;
+}

@@ -1,0 +1,125 @@
+/* Definindo o estilo para o corpo da página */
+body {
+    background-color: #120c4b;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilo para o contêiner do menu */
+.menu-container {
+    text-align: center;
+}
+
+/* Estilo para o subtítulo */
+.slogan {
+    font-style: oblique;
+    font-weight: 780;
+    font-size: 37px;
+    color: #f0be08;
+    margin-top: 2px; /* Espaçamento entre o nome e a frase */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo para o título */
+h1 {
+    font-size: 120px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #ffcc29; /* Cor amarela */
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo para os botões do menu */
+.menu-button {
+    background-color: #10044f; /* Azul luminoso */
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    padding: 20px 80px;
+    margin: 10px 0; /* Ajuste a margem entre os botões verticalmente */
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: 2px solid #000; /* Adiciona borda preta */
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2); /* Adiciona efeito de sombra */
+}
+
+.menu-button:hover {
+    background-color: #080229; /* Tom mais escuro quando hover */
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.4); /* Efeito de sombra mais intenso ao passar o mouse */
+}
+
+/* Estilo para as imagens no topo */
+.top-images {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%; /* Define a largura para 50% da tela */
+    height: 100vh; /* Altura igual à altura da tela */
+    overflow: hidden; /* Esconder qualquer parte da imagem que extrapole a altura */
+    z-index: -1; /* Colocar a imagem por trás do conteúdo */
+}
+
+.top-images img {
+    width: 100%; /* A imagem preencherá toda a largura do espaço alocado */
+    height: 100%; /* A imagem preencherá toda a altura do espaço alocado */
+    object-fit: cover; /* Redimensiona e corta a imagem para preencher o espaço */
+}
+
+/* Estilo para os botões do menu */
+.menu-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    top: 50%;
+    right: 7%; /* Ajuste essa margem direita conforme necessário */
+    transform: translateY(-50%);
+}
+
+/* Estilo para os botões do menu */
+.menu-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinha os botões à esquerda */
+    position: absolute;
+    top: 50%;
+    right: 7%; /* Ajuste essa margem direita conforme necessário */
+    transform: translateY(-50%);
+}
+
+/* Estilo para o botão de login */
+.menu-button:last-child {
+    margin-top: 10px; /* Espaçamento entre os botões */
+    align-self: center; /* Alinha o botão ao centro horizontalmente */
+}
+
+/* Definindo o estilo para o corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Impede que barras de rolagem apareçam devido à imagem de fundo */
+}
+
+/* Estilo para a imagem de fundo */
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('Imagem5.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5; /* Ajuste a opacidade conforme necessário */
+    z-index: -1; /* Colocar a imagem por trás dos outros elementos */
+}
+
